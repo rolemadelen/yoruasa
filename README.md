@@ -14,3 +14,15 @@ And this is the basic layout that I'm thinking of. <br />
 
 I implemented the `newRecord` button. <br />
 ![progress](./progress/20220919.gif)
+
+### 2022.09.20
+
+In process of implementing a recorded log. <br />
+![progress2](./progress/20220920.jpg)
+
+Material icon is used.
+
+```jsx
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
+```
