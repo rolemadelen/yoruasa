@@ -1,5 +1,7 @@
 import React from 'react';
 import './Record.css';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
 
 class Record extends React.Component {
   render() {
@@ -8,7 +10,6 @@ class Record extends React.Component {
         <React.StrictMode>
           <div className="newRecord">
             <button>
-              {/* Button */}
               <span></span>
               <span></span>
             </button>
@@ -18,7 +19,19 @@ class Record extends React.Component {
     } else {
       return (
         <React.StrictMode>
-          <div>Not here</div>
+          <div className="logRecord">
+            <div>
+              <div className="yoru">
+                <DarkModeIcon />
+
+                <span className="yoru-time">22:30</span>
+              </div>
+              <div className="asa">
+                <span className="asa-time">05:00</span>
+                <LightModeIcon />
+              </div>
+            </div>
+          </div>
         </React.StrictMode>
       );
     }

@@ -56,3 +56,27 @@
   background-color: #78b9ff;
   transition: all 0.2s ease-in-out;
 }
+
+/* ------------------------------ */
+.logRecord > div {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+
+  color: black;
+
+  border-radius: 10px;
+  border: none;
+  background-color: #fafcff;
+
+  box-shadow: 0 0 5px 0 #ccc;
+}
+
+.yoru > svg {
+  color: #5d5072;
+}
+
+.asa > svg {
+  color: #ffbc12;
+}

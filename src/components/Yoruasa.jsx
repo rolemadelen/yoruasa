@@ -16,8 +16,7 @@ class Yoruasa extends React.Component {
       <React.StrictMode>
         <div className="wrapper">
           <main>
-            <Record type={'new'} />
-            <Record type={'new'} />
+            <Record type={'log'} />
             <Record type={'new'} />
           </main>
         </div>
