@@ -26,3 +26,10 @@ Material icon is used.
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
 ```
+
+### 2022.09.21
+
+- adding more design
+  ![progress3](./progress/20220921.jpg)
+
+- I need to start thinking about the logic for adding the record.

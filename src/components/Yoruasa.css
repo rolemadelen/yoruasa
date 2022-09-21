@@ -1,5 +1,13 @@
 .wrapper {
-  width: 860px;
+  font-family: 'Sanchez', serif;
+
+  width: 580px;
   height: auto;
   margin: 0 auto;
+}
+
+.wrapper > main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

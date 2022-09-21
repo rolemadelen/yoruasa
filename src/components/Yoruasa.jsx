@@ -17,6 +17,12 @@ class Yoruasa extends React.Component {
         <div className="wrapper">
           <main>
             <Record type={'log'} />
+            <Record type={'log'} />
+            <Record type={'log'} />
+            <Record type={'log'} />
+            <Record type={'log'} />
+            <Record type={'log'} />
+            <Record type={'log'} />
             <Record type={'new'} />
           </main>
         </div>

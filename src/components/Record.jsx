@@ -23,7 +23,6 @@ class Record extends React.Component {
             <div>
               <div className="yoru">
                 <DarkModeIcon />
-
                 <span className="yoru-time">22:30</span>
               </div>
               <div className="asa">
